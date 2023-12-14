@@ -55,4 +55,4 @@ objects_mkdir:
 o:	all objects_mkdir
 	mv *.h archive.a main.c $(LIB)
 
-.PHONY: all libft_make gnl_make clean fclean re
+.PHONY: all libft_make gnl_make clean fclean re objects_mkdir o
